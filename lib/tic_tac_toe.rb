@@ -15,13 +15,7 @@ class TicTacToe
                       [2,4,6],  #D
                       [0,4,8]
                       ]
-
-  def current_player
-    turn_count % 2 == 0 ? "X" : "O"
-  end
- 
   
- 
   def display_board
     puts " #{@board[0]} | #{@board[1]} | #{@board[2]} "
     puts "-----------"

@@ -7,4 +7,4 @@ require_relative '../lib/tic_tac_toe.rb'
  
  puts "Welcome to TicTacToe Game"
  
- 
+ game = game.play

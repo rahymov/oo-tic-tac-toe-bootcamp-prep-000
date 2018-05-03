@@ -52,15 +52,15 @@ class TicTacToe
     turn_count(@board).even? ?  "X" : "O"
   end
   
-  # def turn_count
-  #   count = 0 
-  #   @board.each do |b|
-  #     if b == "X" || b == "O"
-  #       count += 1 
-  #     end
-  #   end
-  #   count
-  # end
+  def turn_count
+    count = 0 
+    @board.each do |b|
+      if b == "X" || b == "O"
+        count += 1 
+      end
+    end
+    count
+  end
   
   def turn
     player = current_player(@board)

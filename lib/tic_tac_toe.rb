@@ -72,7 +72,7 @@ class TicTacToe
       turn(@board)
     end
     if won?(@board)
-      puts "Congratulations #{winner(@board)}!"
+      puts "Congratulations #{winner}!"
     else
       puts "Cat's Game!"
     end

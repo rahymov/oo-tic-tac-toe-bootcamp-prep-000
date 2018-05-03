@@ -20,9 +20,7 @@ class TicTacToe
     turn_count % 2 == 0 ? "X" : "O"
   end
  
-  def turn_count
-    @board.count{|t| t == "X" || t == "O"}
-  end
+  
  
   def display_board
     puts " #{@board[0]} | #{@board[1]} | #{@board[2]} "

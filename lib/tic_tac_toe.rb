@@ -69,9 +69,9 @@ class TicTacToe
   
   def play
     until over?
-      tur
+      turn
     end
-    if won?(@board)
+    if won?
       puts "Congratulations #{winner}!"
     else
       puts "Cat's Game!"

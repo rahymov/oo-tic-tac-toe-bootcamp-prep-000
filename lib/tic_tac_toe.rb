@@ -55,7 +55,7 @@ class TicTacToe
   end
   
   def turn
-    player = current_player(@board)
+   
     puts "Please enter 1-9:"
     user_input = gets.strip
     
